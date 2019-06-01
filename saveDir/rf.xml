@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<files generated="2019-05-27 22:37:50" fitlerFrom="2019-05-27 22:00:00" fitlerTo="2019-05-27 23:00:00">
+  <file type="media" id="12" size="19684" md5="afb33470c582079834acd8b9f979ce1a" download="xmds" path="12.otf"/>
+  <file type="media" id="10" size="116580" md5="86aadd0451f9e7dafa957e1e61dd2ed7" download="xmds" path="10.ttf"/>
+  <file type="media" id="8" size="30060" md5="621ba5aaf66e52f3def0cf69807104b9" download="xmds" path="8.otf"/>
+  <file type="media" id="6" size="1585" md5="ffcde6f93e4ac6cb6d4dddad45d344db" download="xmds" path="xibo-dataset-render.js"/>
+  <file type="media" id="4" size="21107" md5="b9d7742384bdf912c51b6a1b5d674f7a" download="xmds" path="flipclock.min.js"/>
+  <file type="media" id="2" size="28876" md5="212480cf1292db459557814e2d7a571d" download="xmds" path="jquery-cycle-2.1.6.min.js"/>
+  <file type="media" id="17" size="18126" md5="758c582a7fd2f30ec9dd8f91803a9882" download="xmds" path="compatibility.js"/>
+  <file type="media" id="15" size="333388" md5="dec9b89b936438760291e401c09f52aa" download="xmds" path="pdf.js"/>
+  <file type="media" id="13" size="12150" md5="8d72e0c1775cba38c44bf02aee0c8d83" download="xmds" path="xibo-text-render.js"/>
+  <file type="media" id="11" size="45884" md5="58963d3a57da7a70ac36d331416746c5" download="xmds" path="11.ttf"/>
+  <file type="media" id="9" size="27644" md5="d321fa78bb7190a8ca7e14213ef63203" download="xmds" path="9.otf"/>
+  <file type="media" id="7" size="2988" md5="6152d3e99b2c61bb3db365d108337483" download="xmds" path="xibo-image-render.js"/>
+  <file type="media" id="5" size="4460" md5="7fb2977f1880dba96af9eab6ad088807" download="xmds" path="xibo-layout-scaler.js"/>
+  <file type="media" id="3" size="160251" md5="67bb26c11dba6c366834e65f5933aff2" download="xmds" path="moment.js"/>
+  <file type="media" id="18" size="4832" md5="d59f5fc84ef7747f27baddc07fe81487" download="xmds" path="xibo-webpage-render.js"/>
+  <file type="media" id="1" size="95785" md5="3c9137d88a00b1ae0b41ff6a70571615" download="xmds" path="jquery-1.11.1.min.js"/>
+  <file type="media" id="16" size="1337459" md5="926affd0ae3d3b69e6071b26875638c8" download="xmds" path="pdf.worker.js"/>
+  <file type="media" id="14" size="2248" md5="2286bb4f44d9ea301131a25c5204ca0a" download="xmds" path="jquery.marquee.min.js"/>
+  <file type="layout" id="1" size="1624" md5="584e99cdabf7cba0b23d4bb9383e44cd" download="xmds" path="1"/>
+  <file type="resource" layoutid="1" regionid="1" mediaid="1" updated="1558961496"/>
+  <file type="resource" layoutid="1" regionid="2" mediaid="2" updated="1558961496"/>
+  <file type="blacklist"/>
+</files>

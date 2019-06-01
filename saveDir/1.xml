@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout width="1920" height="1080" bgcolor="#000000" schemaVersion="3"><region id="1" width="1920.0000" height="936.0000" top="0.0000" left="0.0000"><options/><media id="1" type="text" render="native" duration="15" useDuration="1"><options><direction>none</direction><fitText>0</fitText><scrollSpeed>2</scrollSpeed><xmds>1</xmds></options><raw><text><![CDATA[<p style="text-align: center;"><span style="font-size:168px;"><strong><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#FFFFFF;">Welcome to Xibo</span></span></strong></span></p>
+
+<p style="text-align: center;"><span style="font-size:80px;"><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#FFFFFF;">Open Source Digital Signage</span></span></span></p>
+
+<p style="text-align: center;"><span style="font-size:48px;"><span style="color:#D3D3D3;"><span style="font-family:arial,helvetica,sans-serif;">This is the default layout - please feel free to change it whenever you like.</span></span></span></p>
+]]></text></raw></media></region><region id="2" width="432.0000" height="129.2308" top="940.7885" left="1470.4904"><options/><media id="2" type="text" render="native" duration="10" useDuration="1"><options><direction>none</direction><fitText>0</fitText><scrollSpeed>2</scrollSpeed><xmds>1</xmds></options><raw><text><![CDATA[<p style="text-align: right;"><span style="font-size:96px;"><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#D3D3D3;">[Clock]</span></span></span></p>
+]]></text></raw></media></region><tags><tag>default</tag><tag>imported</tag></tags></layout>

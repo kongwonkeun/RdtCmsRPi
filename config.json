@@ -1,0 +1,12 @@
+{
+    "clientId":  "rdt-pi-1",
+    "cmsTzOffset": 32400,
+    "layout_file_ext": ".xml",
+    "res_file_ext": ".html",
+    "saveDir": "/home/pi/xibo/saveDir",
+    "serverKey": "rdtone",
+    "strTimeFmt": "%Y-%m-%d %H:%M:%S",
+    "url": "http://35.221.100.165/xibo",
+    "xmdsVersion": 5,
+    "xmrPubUrl": "tcp://35.221.100.165:9505"
+}

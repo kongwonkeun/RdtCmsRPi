@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Xibo Open Source Digital Signage</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=[[ViewPortWidth]]" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Copyright 2006-2018 Spring Signage Ltd. Part of the Xibo Open Source Digital Signage Solution. Released under the AGPLv3 or later. -->
+    <style type="text/css">
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+        }
+        h1, h2, h3, h4, p {
+            margin-top: 0;
+        }
+        #iframe {
+            border: 0;
+        }
+        .cycle-slide p, p.cycle-slide {
+            margin-bottom:0;
+        }
+    </style>
+    <link href="fonts.css" rel="stylesheet" media="screen" />
+
+    
+</head>
+<!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+<!--[if IE 7 ]><body class="ie7"><![endif]-->
+<!--[if IE 8 ]><body class="ie8"><![endif]-->
+<!--[if IE 9 ]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+<div id="content"></div>
+</body>
+<script type="text/javascript">var options = {"type":"text","fx":"none","duration":10,"durationIsPerItem":false,"numItems":1,"takeItemsFrom":"start","itemsPerPage":0,"speed":0,"originalWidth":"432.0000","originalHeight":"129.2308","previewWidth":0,"previewHeight":0,"scaleOverride":0,"marqueeInlineSelector":".item, .item p"}; var items = ["<p style=\"text-align: right;\"><span style=\"font-size:96px;\"><span style=\"font-family:arial,helvetica,sans-serif;\"><span style=\"color:#D3D3D3;\"><span class=\"clock\" format=\"HH:mm\"><\/span><\/span><\/span><\/span><\/p>\n"];</script>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="xibo-layout-scaler.js"></script>
+<script type="text/javascript" src="xibo-text-render.js"></script>
+<script type="text/javascript" src="xibo-image-render.js"></script>
+<script type="text/javascript" src="moment.js"></script>
+<script type="text/javascript">$(document).ready(function() {        $("#content").xiboTextRender(options, items); $("body").xiboLayoutScaler(options); $("#content").find("img").xiboImageRender(options);  moment.locale("en-GB"); updateClock(); setInterval(updateClock, 1000); }); 
+                function updateClock() {
+                    $(".clock").each(function() {
+                        $(this).html(moment().format($(this).attr("format")));
+                    });
+                }
+            </script>
+
+</html>
+
