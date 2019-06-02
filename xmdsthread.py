@@ -218,7 +218,7 @@ class XmdsThread(QThread):
                 while time.time() < next_collect_time and not self.xmds_stop:
                     self.msleep(5000)
 
-            self.__submit_stats()
+            self.submit_stats()
             if  self.single_shot:
                 break
         # while not ...

@@ -74,7 +74,7 @@ class Client:
             if  'registerDisplay'.lower() == method.lower():
                 params.macAddress = self._mac_address
                 if  self.ver == 4:
-                    text = self.__client.service.RegisterDisplay(
+                    text = self.client.service.RegisterDisplay(
                         self.keys['server'],
                         self.keys['hardware'],
                         getattr(params,'name'),

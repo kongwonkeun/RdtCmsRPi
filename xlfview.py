@@ -457,7 +457,7 @@ class RegionView:
             if  view.is_playing():
                 view.stop(delete_widget=True)
 
-        self.media_view = []  #---- del self._media_view[:]
+        self.media_view = []  #---- del self.media_view[:]
 
 #
 #
